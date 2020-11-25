@@ -1,4 +1,4 @@
-name: "Pull Request Labeler"
+name: "Pull Request Label remover"
 on:
 - push
 
@@ -10,3 +10,4 @@ jobs:
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/remove_label.yml
+        sync-labels: true
