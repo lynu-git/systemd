@@ -1,0 +1,6 @@
+hwdb:
+  - hwdb.d/**/*
+units:
+  - units/**/*
+documentation:
+  - any: ['man/**/*', 'docs/**/*']
