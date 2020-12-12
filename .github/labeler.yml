@@ -3,4 +3,4 @@ hwdb:
 units:
   - units/**/*
 documentation:
-  - any: ['man/**/*', 'docs/**/*']
+  - any: ['man/*', 'docs/*', 'NEWS']
